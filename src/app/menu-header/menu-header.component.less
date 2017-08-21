@@ -1,0 +1,56 @@
+#my-menu{
+      background-image: url("../../assets/images/nav.gif");
+      text-transform: uppercase;
+      text-align: center;
+      border-radius: 0px;
+      border: 2px solid #ffe89c;
+      border-right: 0px;
+      border-left: 0px;
+      padding: 0px 5px;
+
+      .navbar-toggle:focus, .navbar-toggle:hover{
+        background-color: #01a8ac;
+        border: 1px solid #ffe89c;
+      }
+
+      .icon-bar{
+        background-color: #ffe89c;
+      }
+
+      .navbar-collapse {
+        vertical-align: -webkit-baseline-middle;
+
+      ul.navbar-nav{
+        float: none;
+        margin: 0;
+        display: inline-block;
+      }
+      li{
+        cursor: pointer;
+        margin-top: 4px;
+
+        .fa-caret-down {
+          position: absolute;
+          z-index: 999;
+          color: #ffe89c;
+          text-align: center;
+        }
+        a {
+          color: #fff;
+          letter-spacing: 3px;
+          background: none;
+        }
+        a:hover {
+          color: #01a8ac!important;
+          font-size: 20px;
+        }
+        &.active{
+        a {
+          color: #01a8ac!important;
+          font-size: 20px;
+          background-color: #ffe89c;
+          }
+        }
+      }
+      }
+}

@@ -1,0 +1,20 @@
+<section class="container-fluid" id="my-home">
+    <div class="row text-center">
+      <div title="I'm a web developer, primarily working on applications built on AngularJS framework, living in India, Mumbai.">
+        <img id="my-profile-pic" src="assets/images/my-pic.jpg" alt="NEVILLE D'SOUZA - WEB Developer">
+      </div>
+      <div id="my-name">{{details.name}}</div>
+      <div id="my-designation">{{details.designation + " - "}}
+        <img id="my-company-pic" src="assets/images/my-bnpp.png" alt="BNP Paribas">
+        <a href="http://indiasolutions.bnpparibas.co.in/"> {{details.companyName}} </a>
+      </div>
+      <div id="my-contact-info">
+        <div>{{details.number}}</div>
+        <a>{{details.email}}</a>
+        <div>{{details.dob}}</div>
+        <div>{{details.address}}</div>
+      </div>
+      <button type="button" class="btn btn-primary btn-lg" onclick="document.getElementById('downloadFile').click()">Download Resume <span><i class="fa fa-download fa-lg"></i></span></button>
+      <a id="downloadFile" href="assets/neville_dsouza_resume.pdf" download="neville_dsouza_resume" hidden></a>
+    </div>
+</section>
