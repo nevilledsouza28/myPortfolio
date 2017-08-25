@@ -4,11 +4,12 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve -o",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "deploy": "ng build --prod --base href https://nevilledsouza28.github.io/myPortfolio/ && angular-cli-ghpages --repo=https://github.com/nevilledsouza28/myPortfolio --name=nevilledsouza28 --email=nevilledsouza28@gmail.com --no-silent"
   },
   "private": true,
   "dependencies": {

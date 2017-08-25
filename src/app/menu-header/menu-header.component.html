@@ -12,8 +12,8 @@
       <div class="collapse navbar-collapse" [collapse]="!isExpanded">
         <ul class="nav navbar-nav navbar-justified">
           <li *ngFor="let item of items; let i = index" (click)="activated = i" [class.active]="activated == i">
-            <i class="fa fa-lg fa-caret-down" aria-hidden="true" [class.hidden]="activated != i"></i>
             <a routerLink="{{item.path}}">{{item.label}}</a>
+            <!--<i class="fa fa-lg fa-caret-up" aria-hidden="true" [class.hidden]="activated != i"></i>-->
           </li>
         </ul>
       </div><!-- /.navbar-collapse -->

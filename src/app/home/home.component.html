@@ -1,16 +1,22 @@
 <section class="container-fluid" id="my-home">
     <div class="row text-center">
-      <div title="I'm a web developer, primarily working on applications built on AngularJS framework, living in India, Mumbai.">
-        <img id="my-profile-pic" src="assets/images/my-pic.jpg" alt="NEVILLE D'SOUZA - WEB Developer">
-      </div>
       <div id="my-name">{{details.name}}</div>
       <div id="my-designation">{{details.designation + " - "}}
         <img id="my-company-pic" src="assets/images/my-bnpp.png" alt="BNP Paribas">
         <a href="http://indiasolutions.bnpparibas.co.in/"> {{details.companyName}} </a>
+        <p>{{details.description}}</p>
+      </div>
+      <div title="I'm a web developer, primarily working on applications built on AngularJS framework, living in India, Mumbai.">
+        <img id="my-profile-pic" src="assets/images/my-pic.jpg" alt="NEVILLE D'SOUZA - WEB Developer">
+      </div>
+      <div id="my-social-icons">
+        <a href="https://www.facebook.com/neville.dsouza.792"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
+        <a href="https://www.instagram.com/neville.dsouza/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/neville-d-souza-92478773/"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
       </div>
       <div id="my-contact-info">
         <div>{{details.number}}</div>
-        <a>{{details.email}}</a>
+        <a href="mailto:nevilledsouza28@gmail.com">{{details.email}}</a>
         <div>{{details.dob}}</div>
         <div>{{details.address}}</div>
       </div>
