@@ -1,17 +1,18 @@
 #my-home{
+    margin-bottom: 40px;
     #my-name {
       font-size: 65px;
       text-transform: capitalize;
-      color: #fff;
+      color: #ffe89c;
       &:hover{
-        color: #ffe89c;
+        color: #fff;
       }
     }
 
     #my-profile-pic {
       border-radius: 50%;
-      width: 150px;
-      height: 150px;
+      width: 175px;
+      height: 175px;
     }
 
     #my-designation {
@@ -31,7 +32,7 @@
       }
       p{
         letter-spacing: 1px;
-        font-size: 13px;
+        font-size: 14px;
         padding: 6px 25%;
         text-transform: capitalize;
       }
@@ -40,28 +41,58 @@
     #my-contact-info {
         letter-spacing: 4px;
         font-size: 15px;
-      a{
-        color: #fff;
-        cursor: pointer;
-      }
       div{
+      margin: 6px;
         text-transform: capitalize;
-      }
-    }
-
-    #my-social-icons{
-      padding: 4px;
-      a{
-        color: #fff;
-        margin-right: 8px;
+          a{
+            color: #fff;
+            cursor: pointer;
+            text-transform: lowercase;
+          }
       }
     }
     button{
         border-radius: 0px;
         background-color: #ffffff;
         margin: 10px 5px;
-        border: 1px solid #33716e;
+        border: 1px solid #007f82;
         text-transform: uppercase;
-        color: #32706d;
+        color: #01a8ac;
     }
+}
+footer{
+   position: fixed;
+   height: 28px;
+   bottom: 0;
+   width: 100%;
+   background-color: #fff;
+   padding: 5px;
+   #my-copyright{
+    color: #000;
+    float:left;
+    font-size: 12px;
+   }
+   #my-social-icons{
+   float:right;
+     a{
+       color: #fff;
+       margin-left: 12px;
+       .fa-facebook-square{
+          color: #3b5998
+       }
+       .fa-linkedin-square{
+           color: #007bb6;
+       }
+       .fa-quora{
+           color: #b92b27;
+       }
+       .fa-instagram{
+           color: transparent;
+           background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+           background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+           background-clip: text;
+           -webkit-background-clip: text;
+       }
+     }
+   }
 }

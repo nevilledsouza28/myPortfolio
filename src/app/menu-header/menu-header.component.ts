@@ -28,7 +28,7 @@ export class MenuHeaderComponent implements OnInit {
           {label: 'home', path: 'home'},
           {label: 'about', path: 'about'},
           {label: 'skills', path: 'skills'},
-          {label: 'experience', path: 'exp'},
+          {label: 'work', path: 'exp'},
           {label: 'education', path: 'edu'},
           {label: 'contact', path: 'contact'}
       ];
